@@ -30,6 +30,7 @@ describe('AppComponent', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('book-stores app is running!');
+    console.warn(compiled.querySelector('#root2 > h1').textContent);
+    expect(compiled.querySelector('#root2 > h1').textContent).toContain('book-stores app is running!');
   });
 });
