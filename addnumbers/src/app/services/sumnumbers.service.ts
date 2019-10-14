@@ -8,7 +8,7 @@ export class SumNumbersService {
   constructor() { }
 
 
-  public  getSum(): any {
+  public  getSum(): number {
     return 10;
   }
 

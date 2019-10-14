@@ -9,9 +9,9 @@ import { SumNumbersService } from './services/sumnumbers.service'
 })
 export class AppComponent {
   title = 'addnumbers';
-  sum = 0;
-  value1 = 0;
-  value2 = 0;
+  sum: number = 0;
+  value1: number = 0;
+  value2: number = 0;
 
   constructor(private numbersService: SumNumbersService) 
   { 
@@ -19,7 +19,7 @@ export class AppComponent {
   }
 
   public calculateSum(){
-    this.sum = 101;
+    this.sum = this.value1 + this.value2;
   }
 
 }
