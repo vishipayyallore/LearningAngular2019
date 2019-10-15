@@ -1,6 +1,6 @@
 import { TestBed } from '@angular/core/testing';
 
-import { SumnumbersService } from './sumnumbers.service';
+import { SumnumbersService } from './SumNumbers.service';
 
 describe('SumnumbersService', () => {
   beforeEach(() => TestBed.configureTestingModule({}));

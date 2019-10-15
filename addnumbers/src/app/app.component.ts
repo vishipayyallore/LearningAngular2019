@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { SumNumbersService } from './services/sumnumbers.service'
+import { SumNumbersService } from './Addition/services/SumNumbers.service'
 
 @Component({
   selector: 'app-root',
@@ -8,7 +8,7 @@ import { SumNumbersService } from './services/sumnumbers.service'
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'addnumbers';
+  title = 'Sample Application';
   sum: number = 0;
   value1: number = 0;
   value2: number = 0;

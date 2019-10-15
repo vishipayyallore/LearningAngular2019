@@ -8,8 +8,8 @@ export class SumNumbersService {
   constructor() { }
 
 
-  public  getSum(): number {
-    return 10;
+  public  getSum(value1: number = 10, value2: number = 10): number {
+    return value1 + value2;
   }
 
 }

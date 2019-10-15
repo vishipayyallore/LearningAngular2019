@@ -4,17 +4,20 @@ import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SumComponent } from './Addition/Components/sum.component'
+import { SumNumbersService } from './Addition/services/SumNumbers.service'
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SumComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule
   ],
-  providers: [],
+  providers: [SumNumbersService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
